@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="30.18"
+   height="30.181351"
+   viewBox="0 0 7.9851253 7.9854824"
+   version="1.1"
+   id="svg25658"
+   inkscape:version="0.92.0 r15299"
+   sodipodi:docname="jd sports.svg">
+  <defs
+     id="defs25652" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="18.265101"
+     inkscape:cx="14.590001"
+     inkscape:cy="14.590557"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     units="px"
+     inkscape:window-width="1280"
+     inkscape:window-height="744"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata25655">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-91.389729,-164.36303)">
+    <path
+       inkscape:connector-curvature="0"
+       id="path24272"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277778"
+       d="m 97.372135,168.28701 c 0.207081,-1.20509 -1.141942,-1.02799 -1.141942,-1.02799 l -0.337608,2.0514 c 0,0 1.272117,0.19896 1.47955,-1.02341 m 0.899936,0.0162 c -0.154869,0.93627 -0.906992,1.86796 -2.109258,1.86796 h -1.274939 l 0.618772,-3.74827 h 1.273881 c 1.198739,0 1.645002,0.93663 1.491544,1.88031 m -2.938992,-1.87219 c -0.628649,4.23157 -2.700866,3.84386 -2.700866,3.84386 l 0.117122,-0.89535 c 1.444272,0.0176 1.689806,-2.94851 1.689806,-2.94851 z m 3.909484,1.92475 c 0,-2.13183 -1.728611,-3.86045 -3.860447,-3.86045 -2.132189,0 -3.860095,1.72862 -3.860095,3.86045 0,2.13184 1.727906,3.86045 3.860095,3.86045 2.131836,0 3.860447,-1.72861 3.860447,-3.86045" />
+  </g>
+</svg>
