@@ -3,8 +3,8 @@
 @section('content')
 <div class="container">
 
-    <form method="post" action="/p" enctype="multipart/form-data">
-
+    <form action="/p" method="post"  enctype="multipart/form-data">
+    @csrf 
 
 
 
@@ -31,9 +31,10 @@
                     <label for="image" class="col-md-4 col-form-label">Post Image</label>
                     <input type="file" , class="form-control-file" id="image" name="image">
                     @error('caption')
-                    <span class="invalid-feedback" role="alert">
+                   
+                   
                         <strong>{{ $message }}</strong>
-                    </span>
+                   
                     @enderror
                 </div>
 

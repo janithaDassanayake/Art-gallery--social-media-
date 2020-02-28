@@ -11,6 +11,7 @@
 |
 */
 
+
 Route::get('/', function () {
     return view('welcome');
 });
@@ -20,4 +21,5 @@ Auth::routes();
 
 //Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/p/create','Postscontroller@create');
+Route::post('/p','Postscontroller@store');
 Route::get('/profile/{user}', 'ProfilesController@index')->name('profile.show');
