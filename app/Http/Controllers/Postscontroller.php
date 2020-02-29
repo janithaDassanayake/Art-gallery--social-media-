@@ -6,6 +6,15 @@ use Illuminate\Http\Request;
 
 class Postscontroller extends Controller
 {
+    public function __construct(){
+
+        //all routs needs authitivcation
+        $this->middleware('auth');
+
+    }
+
+
+
     //
     public function create()
     {
@@ -16,11 +25,17 @@ class Postscontroller extends Controller
     {
         $data = request()->validate([ 
             'caption'=> 'required',
-            'image'=> ['required', 'image'],
+            'image'=> ['required','image'],
         ]);
 
-         auth()->user()->posts()->create($data);
-         dd(request()->all());
+        $imagePath = request('image')->store('uploads','public');
+         auth()->user()->posts()->create([
+
+            'caption' => $data['caption'],
+            'image' => $imagePath,
+         ]);
+      
+         return redirect('/profile/'.auth()->user()->id);
         
          
 
