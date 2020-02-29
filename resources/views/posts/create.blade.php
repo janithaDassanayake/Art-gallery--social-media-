@@ -6,8 +6,6 @@
     <form action="/p" method="post"  enctype="multipart/form-data">
     @csrf 
 
-
-
         <div class="row">
             <div class="col-8 offset-2">
 
@@ -44,8 +42,6 @@
             </div>
         </div>
 </div>
-
-
 
 </form>
 

@@ -11,8 +11,14 @@
         
             <div class="col-9 pt-5" >
                 <div class="d-flex justify-content-between align-items-baseline ">
-                    <h1>{{$user->username}}</h1>
-                    <a  href="/p/create">Add New Post</a>  
+                    <h1 class="pb-2">{{$user->username}}</h1>
+                    <a  href="/p/create/hi">Add New Post</a>  
+                    <!-- <a  href="/p/create">Add New Post</a>   -->
+                </div>
+
+                <div class="pb-2">
+                    
+                <a href="/profile/{{$user->id}}/edit">Edit Profile</a>
                 </div>
 
                 <div class="d-flex ">
@@ -20,9 +26,9 @@
                     <div class="pr-5"><strong>24k </strong>followers</div>
                     <div class="pr-5"><strong>321 </strong>following</div>
                 </div>
-                <div class="pt-4 font-weight-bold">{{$user->profile->title}}</div>
-                <div>{{$user->profile->bio}}</div>
-                <div> <a href="#"> {{$user->profile->url }}</a></div>                
+                <div class="pt-3 font-weight-bold">{{$user->profile->title}}</div>
+                <div class="pt-1">{{$user->profile->bio}}</div>
+                <div class="pt-1"> <a href="#"> {{$user->profile->url }}</a></div>                
             </div>
         </div>
 
