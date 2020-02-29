@@ -19,11 +19,13 @@ Route::get('/', function () {
 Auth::routes();
 
 
+//uda yata paru kala. hetuwa /p/{post} kiyana eken okkoma dewal gannwa
+Route::get('/p/create','Postscontroller@create');
 //Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/p/{post}','Postscontroller@show');
 
 // Route::get('/p/create','Postscontroller@create');
-Route::get('/p/create/hi','Postscontroller@create');
+
 
 Route::post('/p','Postscontroller@store');
 Route::get('/profile/{user}', 'ProfilesController@index')->name('profile.show');
