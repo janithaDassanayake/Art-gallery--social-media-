@@ -49,6 +49,22 @@ class Postscontroller extends Controller
         
     }
 
+    //i used \App\Post because so thet i can access the Post model
+    public function show(\App\Post $post)
+    {
+        return view('posts.show',compact('post'));
+    }
+
+
+    // public function show(\App\Post $post)
+    // {
+    //     return view('posts.show',[
+    //         'post'=>$post,
+    //     ]);
+    // }
+
+
+
 
 
 }
