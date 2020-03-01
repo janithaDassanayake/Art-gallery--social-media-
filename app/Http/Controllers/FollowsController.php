@@ -6,8 +6,13 @@ use Illuminate\Http\Request;
 
 class FollowsController extends Controller
 {
-    //
 
+    public function __construct(){
+
+        $this->middleware('auth');
+    
+       }
+       
     public function store(User $user)
     {
         //tgagle is use to connected or not connected

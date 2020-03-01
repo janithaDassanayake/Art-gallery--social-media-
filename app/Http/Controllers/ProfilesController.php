@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 use App\User;
 use Illuminate\Http\Request;
+
 use Intervention\Image\Facades\Image;
 
 class ProfilesController extends Controller
@@ -10,9 +11,10 @@ class ProfilesController extends Controller
     
     public function index(User $user)
     {
-        return view('profiles.index',[
-            'user'=>$user,
-        ]);
+
+        $follows =(auth()->user()) ? auth()->user()->folowing->contains($user->id) : false;
+       
+        return view('profiles.index',compact('user','follows'));
     }
 
     public function edit(User $user){
