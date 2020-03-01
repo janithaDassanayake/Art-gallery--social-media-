@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 use App\User;
+use App\Post;
 use Illuminate\Http\Request;
 use Intervention\Image\Facades\Image;
 
@@ -14,6 +15,15 @@ class Postscontroller extends Controller
         $this->middleware('auth');
 
     }
+
+
+    public function index()
+    {
+        $users = auth()->user()->folowing()->pluck('profiles.user_id');
+        $posts = Post::where('user_id',$users)->with('user')->orderBy('created_at','DESC')->paginate(5);
+        return view('posts.index',compact('posts'));
+ }
+
 
 
 

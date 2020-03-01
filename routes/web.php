@@ -12,14 +12,14 @@
 */
 
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
 
 Auth::routes();
 
 Route::post('follow/{user}','FollowsController@store');
 
+
+Route::get('/','Postscontroller@index'); 
 //uda yata paru kala. hetuwa /p/{post} kiyana eken okkoma dewal gannwa
 Route::get('/p/create','Postscontroller@create');
 //Route::get('/home', 'HomeController@index')->name('home');
