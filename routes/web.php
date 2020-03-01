@@ -1,5 +1,6 @@
 <?php
 
+use App\Mail\NewUserWelcome;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,6 +16,11 @@
 
 
 Auth::routes();
+
+Route::get('/email', function () {
+    return new NewUserWelcome();
+});
+
 
 Route::post('follow/{user}','FollowsController@store');
 
