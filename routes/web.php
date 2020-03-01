@@ -18,6 +18,7 @@ Route::get('/', function () {
 
 Auth::routes();
 
+Route::post('follow/{user}','FollowsController@store');
 
 //uda yata paru kala. hetuwa /p/{post} kiyana eken okkoma dewal gannwa
 Route::get('/p/create','Postscontroller@create');

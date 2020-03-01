@@ -22,6 +22,12 @@ class Profile extends Model
 
     }
 
+    public function folowers(){
+        return $this->belongsToMany(User::class);
+    }
+    
+
+
     //
     //
 }
