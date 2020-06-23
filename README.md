@@ -1,4 +1,4 @@
-**Instagram "inspired" social media built with Laravel.
+Instagram "inspired" social media built with Laravel.
 -------------------------------------------------------------
 
 *Requirements
@@ -7,10 +7,10 @@
 2. Node & NPM
 3. Composer
 
-**Clone**
+ Clone
 -----------
 **Clone this repo to your local machine using : https://github.com/janithaDassanayake/PAF_Appointment_Schedule_service.git
 
-**Screenshots
+Screenshots
 ---------------
 
