@@ -9,7 +9,7 @@ Requirements
 
  Clone
 -----------
-#Clone this repo to your local machine using : https://github.com/janithaDassanayake/PAF_Appointment_Schedule_service.git
+#Clone this repo to your local machine using : https://github.com/janithaDassanayake/Art-gallery--social-media-.git
 
 Screenshots
 ---------------
